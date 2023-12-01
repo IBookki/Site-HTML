@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Nova Square', sans-serif;
+}
+
+header.header {
+    display:flex;
+    align-items:center;
+    background-color:rgb(4, 54, 54)
+}
+
+header.header img{
+    width: 65px;
+}
+section.top-page {
+    background: url(https://previews.123rf.com/images/ratoca/ratoca1111/ratoca111100213/11304095-musique-fond-d-%C3%A9cran.jpg);
+    background-size: cover;
+    height: 140vh;
+    padding: 20px;
+}   
+
+.big.title {
+    color: white;
+    font-size: 80px;
+    padding: 20px 50px;
+}
+
+
+/*menu de navigation*/
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width:260px;
+    margin-left: 45px;
+    
+}
+
+nav.nav li {
+    color: white;
+}
